@@ -1,0 +1,177 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "ABB_crb15000",
+        "ABB_crb15000.${prefix}base_link",
+        "ABB_crb15000.${prefix}link_1",
+        "ABB_crb15000.${prefix}link_2",
+        "ABB_crb15000.${prefix}link_3",
+        "ABB_crb15000.${prefix}link_4",
+        "ABB_crb15000.${prefix}link_5",
+        "ABB_crb15000.${prefix}link_6",
+        "ABB_crb15000.${prefix}base",
+        "ABB_crb15000.${prefix}flange",
+        "ABB_crb15000.${prefix}tool0"
+    ],
+    "assets": [
+        {
+            "id": "ABB_crb15000",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}base_link",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000",
+            "parentObject": "ABB_crb15000"
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_1",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.265
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}base_link",
+            "parentObject": "ABB_crb15000.${prefix}base_link"
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_2",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}link_1",
+            "parentObject": "ABB_crb15000.${prefix}link_1",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_3",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}link_2",
+            "parentObject": "ABB_crb15000.${prefix}link_2",
+            "position": [
+                0.0,
+                0.0,
+                0.444
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_4",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}link_3",
+            "parentObject": "ABB_crb15000.${prefix}link_3",
+            "position": [
+                0.0,
+                0.0,
+                0.11
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_5",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}link_4",
+            "parentObject": "ABB_crb15000.${prefix}link_4",
+            "position": [
+                0.47,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}link_6",
+            "representations": [
+                {
+                    "file": "ABB_crb15000.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "ABB_crb15000.${prefix}link_5",
+            "parentObject": "ABB_crb15000.${prefix}link_5",
+            "position": [
+                0.101,
+                0.0,
+                0.08
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "ABB_crb15000.${prefix}base"
+        },
+        {
+            "id": "ABB_crb15000.${prefix}flange"
+        },
+        {
+            "id": "ABB_crb15000.${prefix}tool0"
+        }
+    ]
+}
