@@ -1,0 +1,181 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "comau_nj220foundry",
+        "comau_nj220foundry.base_link",
+        "comau_nj220foundry.link_1",
+        "comau_nj220foundry.link_2",
+        "comau_nj220foundry.link_3",
+        "comau_nj220foundry.link_4",
+        "comau_nj220foundry.link_5",
+        "comau_nj220foundry.link_6",
+        "comau_nj220foundry.flange",
+        "comau_nj220foundry.ee_link",
+        "comau_nj220foundry.base",
+        "comau_nj220foundry.world"
+    ],
+    "assets": [
+        {
+            "id": "comau_nj220foundry",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.base_link",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry",
+            "parentObject": "comau_nj220foundry"
+        },
+        {
+            "id": "comau_nj220foundry.link_1",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.235
+            ],
+            "rotation": [
+                0.0,
+                -3.1416,
+                -0.0
+            ],
+            "placementRelTo": "comau_nj220foundry.base_link",
+            "parentObject": "comau_nj220foundry.base_link"
+        },
+        {
+            "id": "comau_nj220foundry.link_2",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry.link_1",
+            "parentObject": "comau_nj220foundry.link_1",
+            "position": [
+                -0.4,
+                0.0,
+                -0.595
+            ],
+            "rotation": [
+                -1.5708,
+                1.5708,
+                0.0
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.link_3",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry.link_2",
+            "parentObject": "comau_nj220foundry.link_2",
+            "position": [
+                1.175,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.0,
+                -3.1416,
+                1.5708
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.link_4",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry.link_3",
+            "parentObject": "comau_nj220foundry.link_3",
+            "position": [
+                -0.25,
+                0.105,
+                0.0
+            ],
+            "rotation": [
+                1.5708,
+                1.5708,
+                0.0
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.link_5",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry.link_4",
+            "parentObject": "comau_nj220foundry.link_4",
+            "position": [
+                0.0,
+                0.0,
+                -1.0203
+            ],
+            "rotation": [
+                -0.0,
+                -1.5708,
+                1.5708
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.link_6",
+            "representations": [
+                {
+                    "file": "Comau_NJ220.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau_nj220foundry.link_5",
+            "parentObject": "comau_nj220foundry.link_5",
+            "position": [
+                0.0,
+                -0.1905,
+                0.0
+            ],
+            "rotation": [
+                -1.5708,
+                -1.5708,
+                0.0
+            ]
+        },
+        {
+            "id": "comau_nj220foundry.flange"
+        },
+        {
+            "id": "comau_nj220foundry.ee_link"
+        },
+        {
+            "id": "comau_nj220foundry.base"
+        },
+        {
+            "id": "comau_nj220foundry.world"
+        }
+    ]
+}
