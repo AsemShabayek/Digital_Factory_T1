@@ -1,0 +1,173 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "kuka_kr120r2500pro",
+        "kuka_kr120r2500pro.base_link",
+        "kuka_kr120r2500pro.link_1",
+        "kuka_kr120r2500pro.link_2",
+        "kuka_kr120r2500pro.link_3",
+        "kuka_kr120r2500pro.link_4",
+        "kuka_kr120r2500pro.link_5",
+        "kuka_kr120r2500pro.link_6",
+        "kuka_kr120r2500pro.tool0",
+        "kuka_kr120r2500pro.base"
+    ],
+    "assets": [
+        {
+            "id": "kuka_kr120r2500pro",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.base_link",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro",
+            "parentObject": "kuka_kr120r2500pro"
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_1",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.675
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.base_link",
+            "parentObject": "kuka_kr120r2500pro.base_link"
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_2",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.link_1",
+            "parentObject": "kuka_kr120r2500pro.link_1",
+            "position": [
+                0.35,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_3",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.link_2",
+            "parentObject": "kuka_kr120r2500pro.link_2",
+            "position": [
+                1.15,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_4",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.link_3",
+            "parentObject": "kuka_kr120r2500pro.link_3",
+            "position": [
+                1.0,
+                0.0,
+                -0.041
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_5",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.link_4",
+            "parentObject": "kuka_kr120r2500pro.link_4",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.link_6",
+            "representations": [
+                {
+                    "file": "kr120r2500pro_01.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka_kr120r2500pro.link_5",
+            "parentObject": "kuka_kr120r2500pro.link_5",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka_kr120r2500pro.tool0"
+        },
+        {
+            "id": "kuka_kr120r2500pro.base"
+        }
+    ]
+}
