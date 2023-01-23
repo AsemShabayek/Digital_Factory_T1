@@ -1,0 +1,177 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "MOTOMAN_gp110",
+        "MOTOMAN_gp110.${prefix}base_link",
+        "MOTOMAN_gp110.${prefix}link_1_s",
+        "MOTOMAN_gp110.${prefix}link_2_l",
+        "MOTOMAN_gp110.${prefix}link_3_u",
+        "MOTOMAN_gp110.${prefix}link_4_r",
+        "MOTOMAN_gp110.${prefix}link_5_b",
+        "MOTOMAN_gp110.${prefix}link_6_t",
+        "MOTOMAN_gp110.${prefix}flange",
+        "MOTOMAN_gp110.${prefix}tool0",
+        "MOTOMAN_gp110.${prefix}base"
+    ],
+    "assets": [
+        {
+            "id": "MOTOMAN_gp110",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}base_link",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110",
+            "parentObject": "MOTOMAN_gp110"
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_1_s",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.54
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}base_link",
+            "parentObject": "MOTOMAN_gp110.${prefix}base_link"
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_2_l",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}link_1_s",
+            "parentObject": "MOTOMAN_gp110.${prefix}link_1_s",
+            "position": [
+                0.32,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_3_u",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}link_2_l",
+            "parentObject": "MOTOMAN_gp110.${prefix}link_2_l",
+            "position": [
+                0.0,
+                0.0,
+                0.87
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_4_r",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}link_3_u",
+            "parentObject": "MOTOMAN_gp110.${prefix}link_3_u",
+            "position": [
+                0.0,
+                0.0,
+                0.235
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_5_b",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}link_4_r",
+            "parentObject": "MOTOMAN_gp110.${prefix}link_4_r",
+            "position": [
+                1.02,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}link_6_t",
+            "representations": [
+                {
+                    "file": "MOTOMAN_gp110.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "MOTOMAN_gp110.${prefix}link_5_b",
+            "parentObject": "MOTOMAN_gp110.${prefix}link_5_b",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}flange"
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}tool0"
+        },
+        {
+            "id": "MOTOMAN_gp110.${prefix}base"
+        }
+    ]
+}
