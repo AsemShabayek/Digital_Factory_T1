@@ -1,0 +1,165 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "kuka",
+        "kuka.base_link",
+        "kuka.link_1",
+        "kuka.link_2",
+        "kuka.link_3",
+        "kuka.link_4",
+        "kuka.link_5",
+        "kuka.link_6"
+    ],
+    "assets": [
+        {
+            "id": "kuka",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "kuka.base_link",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka",
+            "parentObject": "kuka"
+        },
+        {
+            "id": "kuka.link_1",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.17
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "kuka.base_link",
+            "parentObject": "kuka.base_link"
+        },
+        {
+            "id": "kuka.link_2",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka.link_1",
+            "parentObject": "kuka.link_1",
+            "position": [
+                0.175,
+                -0.078063,
+                0.405
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka.link_3",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka.link_2",
+            "parentObject": "kuka.link_2",
+            "position": [
+                0.0,
+                0.0,
+                1.29
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka.link_4",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka.link_3",
+            "parentObject": "kuka.link_3",
+            "position": [
+                0.3268,
+                0.078063,
+                0.05
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka.link_5",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka.link_4",
+            "parentObject": "kuka.link_4",
+            "position": [
+                0.7082,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "kuka.link_6",
+            "representations": [
+                {
+                    "file": "KR_50_R2500.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "kuka.link_5",
+            "parentObject": "kuka.link_5",
+            "position": [
+                0.145,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    ]
+}
