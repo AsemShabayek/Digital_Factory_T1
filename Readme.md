@@ -1,6 +1,7 @@
 a link for the youtube video explaining the process https://youtu.be/HKN9jsmgTvI
 
 
+
 # URDF to JSON Converter
 
 This project is aiming to convert URDF files to JSON files, to be able to use them in [The Virtual Learning Factory Toolkit (VLFT)]('https://virtualfactory.gitbook.io/vlft/') visualizing the robots using [VEB.Js]('https://virtualfactory.gitbook.io/vlft/tools/vebjs').\
@@ -25,7 +26,7 @@ In the following steps we will use the input files obtained from the URDF packag
 The URDF file should be saved as xml, this can be done by opening the file using Visual Studio Code and use Save as and select .xml\
 Or it can be done by simply renaming the file and change the extension to be .xml
 
-#### II. GLB File preparation
+#### II. GLB and Blend File preparation
 In this step we need to use Blender 3D\
 After Importing all the file/files to an empty blender workspace, we need to organize the heirarchy of the meshes, without changing anything related to positions, rotations and locations, making sure that the cursor is located on the world origin (as default).\
 
@@ -36,5 +37,12 @@ The organizing of the heirarchy can be done by:-
 3- Organizing the heirarchy of the plain axes by making each link's plain axis a parent for the following link's plain axis to look like the following screenshots.\
 ![single meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20single%20meshes.png)
 ![multiple meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20multiple%20meshes.png)
+4- after this step we need to export the glb file and the blend file with the same name.\
+the Glb file needs to have the Y+ up (as default export options)\
+![exporting the glb file options](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/GLB%20export%20options.png)
 
 #### III. JSON file Preparation
+From the steps I & II we should have now an XML file, a GLB file and a Blend file.
+All the files should be added to the same folder along with the 2 python code files [URDFtoJSON_V02.py]() and [supportive_functions.py](), as shown in the following screenshot. \
+![Folder contents example](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/folder%20contents.png)\
+asd
