@@ -1,5 +1,6 @@
 a link for the youtube video explaining the process https://youtu.be/HKN9jsmgTvI
 
+
 # URDF to JSON Converter
 
 This project is aiming to convert URDF files to JSON files, to be able to use them in [The Virtual Learning Factory Toolkit (VLFT)]('https://virtualfactory.gitbook.io/vlft/') visualizing the robots using [VEB.Js]('https://virtualfactory.gitbook.io/vlft/tools/vebjs').\
@@ -66,6 +67,26 @@ ___
 
 http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=INSERT_THE_RAW_LINK_OF_THE_JSON_HERE&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d= INSERT_THE_RAW_LINK_OF_THE_GLB_LOCATION_HERE\
 in our case this will be the link\
-http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/Example.json&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/ \
+http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/Example.json&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/\
 3- we should see the robot visualized\
 ![VEB.js](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/a%20robot%20inside%20the%20VEB.js.png)
+
+### In case there is no URDF available
+In case of no URDF file available for a required robot, we need at least a .STEP file or any similar file for the robot, mostly it will be available at the manufacturer website, then we can generate the URDF and the meshes in the previous steps using [SW2URDF](http://wiki.ros.org/sw_urdf_exporter/Tutorials/Export%20an%20Assembly)
+
+#### SW2URDF
+
+It works by defining the objects representing each link and exporting them in one part, so the total number of the exported parts equals the number of links.\
+It also adds joints, it can be done by two methods:-\
+1- by manually inserting axes in the desired places, it will not be so efficient and can make some errors.\
+2- by firstly making all the mates correctly then work on the add-in which will be able to define the joints’ locations and type, as long as there is only one degree of freedom for each link.\
+There is a good tutorial for how to use it on [this link](http://wiki.ros.org/sw_urdf_exporter/Tutorials/Export%20an%20Assembly)
+
+###### *Important notes on SW2URDF.*
+there are three things needs to be taken care of to have a smoother and easier process.\
+1- to assemble the parts correctly and having only one degree of freedom at maximum for each part, except the first part, it should better be fixed.\
+2- at the last step before exporting, we can change the roll, pitch, yaw for the joints, it will be much easier to make their original values as Zeros, as it will reduce the confusion about which Euler Angle convention should be selected.\
+3- to make the assembly standing on the top plan to be in a normal orientation if we are looking at it from an isometric view as shown in the image.\
+
+
+
