@@ -2,6 +2,7 @@ a link for the youtube video explaining the process https://youtu.be/HKN9jsmgTvI
 
 
 
+
 # URDF to JSON Converter
 
 This project is aiming to convert URDF files to JSON files, to be able to use them in [The Virtual Learning Factory Toolkit (VLFT)]('https://virtualfactory.gitbook.io/vlft/') visualizing the robots using [VEB.Js]('https://virtualfactory.gitbook.io/vlft/tools/vebjs').\
@@ -36,7 +37,7 @@ The organizing of the heirarchy can be done by:-
 2- Making it the parent for the link's mesh/meshes. \
 3- Organizing the heirarchy of the plain axes by making each link's plain axis a parent for the following link's plain axis to look like the following screenshots.\
 ![single meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20single%20meshes.png)
-![multiple meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20multiple%20meshes.png)\
+![multiple meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20multiple%20meshes.png)
 4- after this step we need to export the glb file and the blend file with the same name.\
 the Glb file needs to have the Y+ up (as default export options)\
 ![exporting the glb file options](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/GLB%20export%20options.png)
@@ -45,4 +46,20 @@ the Glb file needs to have the Y+ up (as default export options)\
 From the steps I & II we should have now an XML file, a GLB file and a Blend file.
 All the files should be added to the same folder along with the 2 python code files [URDFtoJSON_V02.py]() and [supportive_functions.py](), as shown in the following screenshot. \
 ![Folder contents example](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/folder%20contents.png)\
-asd
+1- We should open the command prompt and run the python code.\
+![JSON 1st step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Json%201st%20step.png)\
+2- After running the code, you will be required to write the files names, as discussed before, all the files should be with the same name, if they are not exactly the same (case sensitive) the generator will not work properly.\
+so we will write `Example` without any extensions\
+![JSON 2nd step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Json%202nd%20step.png)\
+3- A pop-up window will show up requiring you to select the euler convention of the input file.\
+It can be found in the documentation of the file, it’s very important step, as VEB.js is requiring the angles to be with YXZ convention in the JSON file.\
+In the previous trials we have found out that ZYX is working well most of the times.\
+but some other times it might be XYZ.\
+![JSON 2nd step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Json%203rd%20step.png)\
+4- After selecting the Euler convention, a similar pop up window will show up requiring you to select the object name that resembles certain links from the URDF.\
+it will show up N times, N = number of links, one time for each link, and each time you should select the object name representing the link written in the message of the pop-up window.\
+![JSON 2nd step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/JSON%204th%20Step.png)\
+5- After finalizing this process of the objects names selection.The process of generating the JSON file is done.\
+You will find a JSON file with the same name added to the same file directory where you added the previous files in the first step of the JSON file preparation.\
+![JSON 2nd step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/JSON%205th%20STep.png)\
+
