@@ -1,6 +1,3 @@
-a link for the youtube video explaining the process https://youtu.be/HKN9jsmgTvI
-
-
 # URDF to JSON Converter
 
 This project is aiming to convert URDF files to JSON files, to be able to use them in [The Virtual Learning Factory Toolkit (VLFT)]('https://virtualfactory.gitbook.io/vlft/') visualizing the robots using [VEB.Js]('https://virtualfactory.gitbook.io/vlft/tools/vebjs').\
@@ -87,6 +84,18 @@ there are three things needs to be taken care of to have a smoother and easier p
 1- to assemble the parts correctly and having only one degree of freedom at maximum for each part, except the first part, it should better be fixed.\
 2- at the last step before exporting, we can change the roll, pitch, yaw for the joints, it will be much easier to make their original values as Zeros, as it will reduce the confusion about which Euler Angle convention should be selected.\
 3- to make the assembly standing on the top plan to be in a normal orientation if we are looking at it from an isometric view as shown in the image.\
+![Isometric view](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Isometric.png)
+___
 
+## A deeper look into the code
+In This section we will take a deeper look on the code we are using.\
+we are using two python files [URDFtoJSON_V02.py]() and [supportive_functions.py]().\
+the 1st file includes the main code, the 2nd one includes some supportive functions to have more organized python code.
 
+### Used Libraries
+- XML.etree Library, used for parsing and manipulating xml data.
+- JSON in python, used to work with Json data.
+- Mathutils, used for Euler angles convention conversion.
+- Blender in python, used in reading the plain axes names.
+- Tkinter in python, Used for making GUI pop-up lists.
 
