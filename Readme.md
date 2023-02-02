@@ -109,9 +109,9 @@ ___
 -	The ability to extract the colors and textures, either from the blend file or the STEP file.
 -	Using Bpy library to generate the GLB files from the mesh files without downloading them manually.
 
-__
+___
 
-#Useful links
+# Useful links
 - Youtube [link](https://youtu.be/HKN9jsmgTvI) of tutorial video.
 - PDF documentation of the project, [link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/DF-01.pdf)
 
