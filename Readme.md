@@ -39,7 +39,7 @@ the Glb file needs to have the Y+ up (as default export options)\
 ___
 #### III. JSON file Preparation
 From the steps I & II we should have now an XML file, a GLB file and a Blend file.
-All the files should be added to the same folder along with the 2 python code files [URDFtoJSON_V02.py]() and [supportive_functions.py](), as shown in the following screenshot. \
+All the files should be added to the same folder along with the 2 python code files [URDFtoJSON_V02.py](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/URDFtoJSON_V02.py) and [supportive_functions.py](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/supportive_functions.py), as shown in the following screenshot. \
 ![Folder contents example](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/folder%20contents.png)\
 1- We should open the command prompt and run the python code.\
 ![JSON 1st step](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Json%201st%20step.png)\
@@ -89,7 +89,7 @@ ___
 
 ## A deeper look into the code
 In This section we will take a deeper look on the code we are using.\
-we are using two python files [URDFtoJSON_V02.py]() and [supportive_functions.py]().\
+we are using two python files [URDFtoJSON_V02.py](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/URDFtoJSON_V02.py) and [supportive_functions.py](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/supportive_functions.py).\
 the 1st file includes the main code, the 2nd one includes some supportive functions to have more organized python code.
 
 ### Used Libraries
@@ -98,4 +98,21 @@ the 1st file includes the main code, the 2nd one includes some supportive functi
 - Mathutils, used for Euler angles convention conversion.
 - Blender in python, used in reading the plain axes names.
 - Tkinter in python, Used for making GUI pop-up lists.
+
+#### A previous version of the code
+there is an outdated version of the code before adding the pop up lists of selecting the Euler angles convention and the links names
+[URDFtoJSON.py](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/URDFtoJSON.py)
+
+___
+## Possible future enhancements
+-	A full GUI interface to generate the files without the need to run the python code from the command prompt.
+-	The ability to extract the colors and textures, either from the blend file or the STEP file.
+-	Using Bpy library to generate the GLB files from the mesh files without downloading them manually.
+
+__
+
+#Useful links
+- Youtube [link](https://youtu.be/HKN9jsmgTvI) of tutorial video.
+- PDF documentation of the project, [link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/DF-01.pdf)
+
 
