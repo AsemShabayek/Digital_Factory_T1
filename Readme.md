@@ -36,7 +36,7 @@ The organizing of the heirarchy can be done by:-
 2- Making it the parent for the link's mesh/meshes. \
 3- Organizing the heirarchy of the plain axes by making each link's plain axis a parent for the following link's plain axis to look like the following screenshots.\
 ![single meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20single%20meshes.png)
-![multiple meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20multiple%20meshes.png)
+![multiple meshes for each link](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/Parents%20Heirarchy%20multiple%20meshes.png)\
 4- after this step we need to export the glb file and the blend file with the same name.\
 the Glb file needs to have the Y+ up (as default export options)\
 ![exporting the glb file options](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/GLB%20export%20options.png)
