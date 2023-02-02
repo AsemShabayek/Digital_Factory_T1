@@ -66,6 +66,6 @@ ___
 
 http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=INSERT_THE_RAW_LINK_OF_THE_JSON_HERE&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d= INSERT_THE_RAW_LINK_OF_THE_GLB_LOCATION_HERE\
 in our case this will be the link\
-http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/Example.json&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/\
+http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/Example.json&&?inputenv=https://wterkaj.github.io/RepoExample/example_robot/Robot_env.json&repoMod3d=https://raw.githubusercontent.com/AsemShabayek/URDFtoJSON/main/ \
 3- we should see the robot visualized\
 ![VEB.js](https://github.com/AsemShabayek/Digital_Factory_T1/blob/main/Screenshots/a%20robot%20inside%20the%20VEB.js.png)
